@@ -1,0 +1,59 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  /* Linear gradient */
+  background: linear-gradient(to right, yellow, red);
+  /* Add any other styles you need */
+  margin: 0;
+  height: 100vh; /* Make sure the gradient covers the entire viewport height */
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  color: #fff; /* Set text color to contrast with the gradient */
+}
+
+input {
+  background-color:coral;
+  color: #fff;
+}
+
+.search-container {
+ /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  position: flex;
+  background-color: #cf7c1e;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 3;
+}
+ul li:hover {
+  background-color: rgb(234, 180, 100);
+}
+
+input {
+   /* TODO */
+}
